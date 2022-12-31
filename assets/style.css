@@ -1,0 +1,48 @@
+@font-face {
+  font-family: Mikhak Bold;
+  src: url('./fonts/Mikhak-Bold.ttf');
+}
+@font-face {
+  font-family: Iransans;
+  src: url('./fonts/IRANSansWeb.ttf');
+}
+body{
+font-family:Iransans;
+}
+p{
+font-family:Iransans;
+}
+.small-section{
+	text-align:center;
+}
+.small-section h3{
+	font-family:Mikhak Bold;
+}
+.section h2{
+	font-family:Mikhak Bold;
+}
+.section{
+	padding:15px;
+}
+
+.header img{
+	width:100%;
+}
+
+.gray-section{
+	background:#C4C4C4
+}
+
+.section-text {
+	padding:15px;
+	text-align:justify;
+}
+.section-text a{
+	background:#fff;
+	color:#001A7C;
+	border:1px solid #001A7C;
+	border-radius:6px;
+	padding:5px;
+	text-decoration: none;
+	float:left;
+}
