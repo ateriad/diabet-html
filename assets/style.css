@@ -21,7 +21,7 @@ font-family:Iransans;
 	color: #fff;
 }
 
-.header-text h1 h2 h3{
+.header-text h1 h2 h5{
 	color: #fff;
 }
 
@@ -84,4 +84,26 @@ font-family: Mikhak Bold;
 	font-family: Iransans;
 	color: rgb(63, 63, 63);
 	font-size: 13;
+}
+
+
+
+@media only screen and (max-width: 766px) {
+	.header-text {
+		padding: 10px;
+		top: 70px;
+	}
+	.header-text h2, h1, h5{
+		font-size: 18 !important;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.header-text {
+		padding: 5px;
+		top: 40px;
+	}
+	.header-text h2, h1, h5{
+		font-size: 12 !important;
+	}
 }
