@@ -12,6 +12,20 @@ font-family:Iransans;
 p{
 font-family:Iransans;
 }
+
+.header-text{
+	position: absolute;
+	z-index: 1;
+}
+
+.header-text h1 h2 h3{
+	color: #fff;
+}
+
+.header-text h1{
+font-family: Mikhak Bold;
+}
+
 .small-section{
 	text-align:center;
 }
@@ -30,7 +44,7 @@ font-family:Iransans;
 }
 
 .gray-section{
-	background:#C4C4C4
+	background:#CECECE
 }
 
 .section-text {
@@ -45,4 +59,26 @@ font-family:Iransans;
 	padding:5px;
 	text-decoration: none;
 	float:left;
+}
+.section-text ul{
+	font-family: Iransans;
+	color: rgb(63, 63, 63);
+	font-size: 13;
+}
+.section-text p{
+	font-family: Iransans;
+	color: rgb(44, 44, 44);
+	font-size: 15;
+	line-height: 2;
+}
+.section-text li{
+	list-style: none;
+}
+.section-text li::before{
+	content: '✓';
+}
+.gray-text{
+	font-family: Iransans;
+	color: rgb(63, 63, 63);
+	font-size: 13;
 }
