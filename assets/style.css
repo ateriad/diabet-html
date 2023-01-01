@@ -13,9 +13,12 @@ p{
 font-family:Iransans;
 }
 
-.header-text{
+.header-text {
 	position: absolute;
 	z-index: 1;
+	padding: 15px;
+	top: 100px;
+	color: #fff;
 }
 
 .header-text h1 h2 h3{
