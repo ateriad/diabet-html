@@ -15,6 +15,9 @@ font-family:Iransans;
 .small-section a{
 	text-decoration: none;
 }
+.small-section h3{
+	font-size: 23 !important;
+}
 
 .small-section a:visited{
 	text-decoration: none;
