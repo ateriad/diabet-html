@@ -12,7 +12,9 @@ font-family:Iransans;
 p{
 font-family:Iransans;
 }
-
+.small-section a{
+	text-decoration: none;
+}
 .header-text {
 	position: absolute;
 	z-index: 1;
